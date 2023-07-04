@@ -23,7 +23,7 @@ private Prioridade(Integer codigo, String descricao) {
 }
    
 public static Prioridade toEnum( Integer cod ) { 
-	if ( cod == null ) { 
+	if ( cod == null ) {  
 		return null;
 	}
 	
